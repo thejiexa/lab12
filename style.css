@@ -1,0 +1,36 @@
+h2{
+    margin-top: 15px;
+    font-size: 50px;
+    
+}
+body{
+    background-image: url("./assets/image/bg.png");
+    background-size: 100%;    
+    background-repeat: repeat-y;
+}
+#album{
+    background: url("./assets/image/album.png") rgba(0,0,0,0);
+    background-size: 100% 100%;
+    color: black;
+    padding: 35px;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    border: 0px;
+}
+#album:hover{
+    border: 1px solid black;
+}
+#image{
+    margin: 20px;
+    height: 256px;
+    width: 256px;
+}
+#buttonback{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
